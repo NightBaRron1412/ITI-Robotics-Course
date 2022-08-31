@@ -1,0 +1,41 @@
+1- cd
+   pwd
+
+2- mkdir SAMPLE
+
+3- mkdir SAMPLE/HELLO
+
+4- mkdir /home/user/SAMPLE/hello
+
+5- rmdir /home/user/SAMPLE/hello
+
+6- rm -r SAMPLE/
+   mkdir SAMPLE/HELLO
+   
+7- rmdir can only be used to remove an empty directory. It won't work for non-empty directories.
+   rm removes both files and non-empty directories.
+
+8- by adding a dot as the first character of the file name.
+
+9- mkdir -p dir/dir1
+   touch dir/dir1/file1
+   mkdir -p docs/WS-ITI
+
+10- abs: /home/user/docs/WS-ITI/
+    rel: ./docs/WS-ITI/
+    
+11- cd
+    cd ~
+
+12- cd
+    cat > my_code.text
+    Amir_iti
+    ctrl + d
+    grep -r Amir_iti
+    ctrl + c
+    cd Desktop
+    cat > my_code.text
+    Amir_iti
+    ctrl + d
+    grep -r Amir_iti
+    ctrl + c
