@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_prevent = ITI_LAB2.turtle_prevent:main
+

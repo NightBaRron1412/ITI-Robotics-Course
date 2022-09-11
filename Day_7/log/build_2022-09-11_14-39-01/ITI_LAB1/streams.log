@@ -1,0 +1,24 @@
+[0.543s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/src/ITI_LAB1': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/build/ITI_LAB1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/build/ITI_LAB1/install.log --single-version-externally-managed
+[0.752s] running egg_info
+[0.753s] writing ../../build/ITI_LAB1/ITI_LAB1.egg-info/PKG-INFO
+[0.753s] writing dependency_links to ../../build/ITI_LAB1/ITI_LAB1.egg-info/dependency_links.txt
+[0.753s] writing entry points to ../../build/ITI_LAB1/ITI_LAB1.egg-info/entry_points.txt
+[0.753s] writing requirements to ../../build/ITI_LAB1/ITI_LAB1.egg-info/requires.txt
+[0.753s] writing top-level names to ../../build/ITI_LAB1/ITI_LAB1.egg-info/top_level.txt
+[0.756s] reading manifest file '../../build/ITI_LAB1/ITI_LAB1.egg-info/SOURCES.txt'
+[0.780s] writing manifest file '../../build/ITI_LAB1/ITI_LAB1.egg-info/SOURCES.txt'
+[0.780s] running build
+[0.780s] running build_py
+[0.780s] running install
+[0.781s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.781s]   warnings.warn(
+[0.781s] running install_lib
+[0.782s] running install_data
+[0.782s] running install_egg_info
+[0.783s] removing '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/python3.10/site-packages/ITI_LAB1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.784s] Copying ../../build/ITI_LAB1/ITI_LAB1.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/python3.10/site-packages/ITI_LAB1-0.0.0-py3.10.egg-info
+[0.784s] running install_scripts
+[0.802s] Installing number_counter script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/ITI_LAB1
+[0.802s] Installing str_publisher script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/ITI_LAB1
+[0.802s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/build/ITI_LAB1/install.log'
+[0.821s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/src/ITI_LAB1' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/build/ITI_LAB1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/install/ITI_LAB1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_7/build/ITI_LAB1/install.log --single-version-externally-managed

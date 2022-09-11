@@ -1,0 +1,26 @@
+[0.537s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/src/ITI_LAB2': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB2 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/install.log --single-version-externally-managed
+[0.755s] running egg_info
+[0.756s] writing ../../build/ITI_LAB2/ITI_LAB2.egg-info/PKG-INFO
+[0.757s] writing dependency_links to ../../build/ITI_LAB2/ITI_LAB2.egg-info/dependency_links.txt
+[0.757s] writing entry points to ../../build/ITI_LAB2/ITI_LAB2.egg-info/entry_points.txt
+[0.757s] writing requirements to ../../build/ITI_LAB2/ITI_LAB2.egg-info/requires.txt
+[0.757s] writing top-level names to ../../build/ITI_LAB2/ITI_LAB2.egg-info/top_level.txt
+[0.760s] reading manifest file '../../build/ITI_LAB2/ITI_LAB2.egg-info/SOURCES.txt'
+[0.762s] writing manifest file '../../build/ITI_LAB2/ITI_LAB2.egg-info/SOURCES.txt'
+[0.762s] running build
+[0.762s] running build_py
+[0.762s] copying ITI_LAB2/turtle_prevent.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/build/lib/ITI_LAB2
+[0.762s] running install
+[0.762s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.762s]   warnings.warn(
+[0.762s] running install_lib
+[0.764s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/build/lib/ITI_LAB2/turtle_prevent.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages/ITI_LAB2
+[0.764s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages/ITI_LAB2/turtle_prevent.py to turtle_prevent.cpython-310.pyc
+[0.765s] running install_data
+[0.765s] running install_egg_info
+[0.766s] removing '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages/ITI_LAB2-0.0.0-py3.10.egg-info' (and everything under it)
+[0.767s] Copying ../../build/ITI_LAB2/ITI_LAB2.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages/ITI_LAB2-0.0.0-py3.10.egg-info
+[0.767s] running install_scripts
+[0.786s] Installing turtle_prevent script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/ITI_LAB2
+[0.786s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/install.log'
+[0.808s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/src/ITI_LAB2' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB2 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/install/ITI_LAB2 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_8/build/ITI_LAB2/install.log --single-version-externally-managed

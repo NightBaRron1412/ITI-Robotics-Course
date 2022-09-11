@@ -1,0 +1,4 @@
+[console_scripts]
+number_counter = ITI_LAB1.node2:main
+str_publisher = ITI_LAB1.node1:main
+
