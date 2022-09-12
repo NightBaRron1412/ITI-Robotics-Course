@@ -1,0 +1,177 @@
+[10.697s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[10.697s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5d2b6bf700>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5d2b854d30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5d2b854d30>>)
+[12.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[12.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[12.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[12.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[12.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[12.767s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[12.767s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[12.768s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[12.769s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[14.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[14.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[14.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[14.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[14.910s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[14.911s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[14.911s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[14.912s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[14.912s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[14.912s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[14.912s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[14.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[14.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[14.913s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[14.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[14.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[14.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[14.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[14.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[14.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[14.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[14.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[14.916s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[14.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extensions ['ignore', 'ignore_ament_install']
+[14.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extension 'ignore'
+[14.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extension 'ignore_ament_install'
+[14.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extensions ['colcon_pkg']
+[14.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extension 'colcon_pkg'
+[14.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extensions ['colcon_meta']
+[14.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extension 'colcon_meta'
+[14.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extensions ['ros']
+[14.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/first_pkg_robotics) by extension 'ros'
+[15.158s] DEBUG:colcon.colcon_core.package_identification:Package 'src/first_pkg_robotics' with type 'ros.ament_python' and name 'first_pkg_robotics'
+[15.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['ignore', 'ignore_ament_install']
+[15.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ignore'
+[15.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ignore_ament_install'
+[15.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['colcon_pkg']
+[15.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'colcon_pkg'
+[15.159s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['colcon_meta']
+[15.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'colcon_meta'
+[15.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extensions ['ros']
+[15.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/services_pkg) by extension 'ros'
+[15.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/services_pkg' with type 'ros.ament_python' and name 'services_pkg'
+[15.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[15.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[15.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[15.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[15.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[16.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[16.120s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[16.178s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/NightBaRron1412/ros2_ws/install
+[16.191s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/humble
+[16.195s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_args' from command line to 'None'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_target' from command line to 'None'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_clean_cache' from command line to 'False'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_clean_first' from command line to 'False'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'cmake_force_configure' from command line to 'False'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'ament_cmake_args' from command line to 'None'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'catkin_cmake_args' from command line to 'None'
+[19.665s] Level 5:colcon.colcon_core.verb:set package 'first_pkg_robotics' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.665s] DEBUG:colcon.colcon_core.verb:Building package 'first_pkg_robotics' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics', 'merge_install': False, 'path': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics', 'symlink_install': False, 'test_result_base': None}
+[19.668s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_args' from command line to 'None'
+[19.668s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_target' from command line to 'None'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[19.669s] Level 5:colcon.colcon_core.verb:set package 'services_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[19.669s] DEBUG:colcon.colcon_core.verb:Building package 'services_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg', 'merge_install': False, 'path': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg', 'symlink_install': False, 'test_result_base': None}
+[19.671s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[19.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[19.683s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics' with build type 'ament_python'
+[19.683s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_pkg_robotics', 'ament_prefix_path')
+[19.762s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[19.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/ament_prefix_path.ps1'
+[19.776s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/ament_prefix_path.dsv'
+[19.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/ament_prefix_path.sh'
+[19.810s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.810s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[19.826s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg' with build type 'ament_python'
+[19.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('services_pkg', 'ament_prefix_path')
+[19.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/ament_prefix_path.ps1'
+[19.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/ament_prefix_path.dsv'
+[19.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/ament_prefix_path.sh'
+[19.851s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[19.851s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.401s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics'
+[20.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.923s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg'
+[20.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[20.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[22.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log --single-version-externally-managed
+[22.565s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/first_pkg_robotics build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log --single-version-externally-managed
+[23.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/first_pkg_robotics build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log --single-version-externally-managed
+[23.722s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics' for CMake module files
+[23.723s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics' for CMake config files
+[23.725s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib'
+[23.725s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/bin'
+[23.725s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/pkgconfig/first_pkg_robotics.pc'
+[23.726s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages'
+[23.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_pkg_robotics', 'pythonpath')
+[23.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/pythonpath.ps1'
+[23.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/pythonpath.dsv'
+[23.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/hook/pythonpath.sh'
+[23.734s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/bin'
+[23.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(first_pkg_robotics)
+[23.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/package.ps1'
+[23.760s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/package.dsv'
+[23.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/package.sh'
+[23.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/package.bash'
+[23.798s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics/package.zsh'
+[23.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/colcon-core/packages/first_pkg_robotics)
+[23.820s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg' for CMake module files
+[23.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log --single-version-externally-managed
+[23.823s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg' for CMake config files
+[23.825s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib'
+[23.825s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/bin'
+[23.825s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/pkgconfig/services_pkg.pc'
+[23.826s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages'
+[23.826s] Level 1:colcon.colcon_core.shell:create_environment_hook('services_pkg', 'pythonpath')
+[23.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/pythonpath.ps1'
+[23.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/pythonpath.dsv'
+[23.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/hook/pythonpath.sh'
+[23.834s] Level 1:colcon.colcon_core.environment:checking '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/bin'
+[23.834s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(services_pkg)
+[23.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/package.ps1'
+[23.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/package.dsv'
+[23.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/package.sh'
+[23.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/package.bash'
+[23.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/services_pkg/package.zsh'
+[23.845s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/share/colcon-core/packages/services_pkg)
+[23.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.846s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.847s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.847s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.894s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.895s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.895s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.985s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.990s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/local_setup.ps1'
+[23.997s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/_local_setup_util_ps1.py'
+[24.002s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/setup.ps1'
+[24.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/local_setup.sh'
+[24.022s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/_local_setup_util_sh.py'
+[24.023s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/setup.sh'
+[24.029s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/local_setup.bash'
+[24.030s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/setup.bash'
+[24.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/local_setup.zsh'
+[24.037s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/setup.zsh'

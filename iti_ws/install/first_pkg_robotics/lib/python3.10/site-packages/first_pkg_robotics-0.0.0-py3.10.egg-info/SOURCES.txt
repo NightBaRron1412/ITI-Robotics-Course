@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/PKG-INFO
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/dependency_links.txt
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/entry_points.txt
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/requires.txt
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/top_level.txt
+../../build/first_pkg_robotics/first_pkg_robotics.egg-info/zip-safe
+first_pkg_robotics/__init__.py
+first_pkg_robotics/file1.py
+resource/first_pkg_robotics
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,24 @@
+[4.602s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log --single-version-externally-managed
+[5.110s] running egg_info
+[5.113s] writing ../../build/services_pkg/services_pkg.egg-info/PKG-INFO
+[5.140s] writing dependency_links to ../../build/services_pkg/services_pkg.egg-info/dependency_links.txt
+[5.149s] writing entry points to ../../build/services_pkg/services_pkg.egg-info/entry_points.txt
+[5.150s] writing requirements to ../../build/services_pkg/services_pkg.egg-info/requires.txt
+[5.150s] writing top-level names to ../../build/services_pkg/services_pkg.egg-info/top_level.txt
+[5.253s] reading manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[5.282s] writing manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[5.282s] running build
+[5.283s] running build_py
+[5.283s] running install
+[5.300s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.300s]   warnings.warn(
+[5.301s] running install_lib
+[5.303s] running install_data
+[5.305s] running install_egg_info
+[5.308s] removing '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.324s] Copying ../../build/services_pkg/services_pkg.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg-0.0.0-py3.10.egg-info
+[5.335s] running install_scripts
+[5.392s] Installing client script to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/services_pkg
+[5.398s] Installing server script to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/services_pkg
+[5.399s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log'
+[5.450s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log --single-version-externally-managed

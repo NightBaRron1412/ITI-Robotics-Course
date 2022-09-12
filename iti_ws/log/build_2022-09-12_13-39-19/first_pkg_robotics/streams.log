@@ -1,0 +1,38 @@
+[2.879s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/first_pkg_robotics build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log --single-version-externally-managed
+[3.419s] running egg_info
+[3.421s] creating ../../build/first_pkg_robotics/first_pkg_robotics.egg-info
+[3.421s] writing ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/PKG-INFO
+[3.422s] writing dependency_links to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/dependency_links.txt
+[3.423s] writing entry points to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/entry_points.txt
+[3.423s] writing requirements to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/requires.txt
+[3.423s] writing top-level names to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/top_level.txt
+[3.611s] writing manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'
+[3.614s] reading manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'
+[3.616s] writing manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'
+[3.616s] running build
+[3.616s] running build_py
+[3.617s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build
+[3.617s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib
+[3.617s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics
+[3.617s] copying first_pkg_robotics/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics
+[3.617s] copying first_pkg_robotics/file1.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics
+[3.660s] running install
+[3.702s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.703s]   warnings.warn(
+[3.703s] running install_lib
+[3.705s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics
+[3.706s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics
+[3.706s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics/file1.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics
+[3.707s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics/__init__.py to __init__.cpython-310.pyc
+[3.707s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics/file1.py to file1.cpython-310.pyc
+[3.708s] running install_data
+[3.710s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index
+[3.710s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index
+[3.710s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index/packages
+[3.711s] copying resource/first_pkg_robotics -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index/packages
+[3.768s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics
+[3.768s] running install_egg_info
+[3.772s] Copying ../../build/first_pkg_robotics/first_pkg_robotics.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics-0.0.0-py3.10.egg-info
+[3.774s] running install_scripts
+[3.833s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log'
+[3.889s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/first_pkg_robotics build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log --single-version-externally-managed

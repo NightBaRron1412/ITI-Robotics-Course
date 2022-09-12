@@ -1,0 +1,4 @@
+[console_scripts]
+client = services_pkg.client:main
+server = services_pkg.server:main
+

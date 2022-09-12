@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000955] (first_pkg_robotics) JobQueued: {'identifier': 'first_pkg_robotics', 'dependencies': OrderedDict()}
+[0.002736] (services_pkg) JobQueued: {'identifier': 'services_pkg', 'dependencies': OrderedDict()}
+[0.002988] (first_pkg_robotics) JobStarted: {'identifier': 'first_pkg_robotics'}
+[0.099362] (-) TimerEvent: {}
+[0.144329] (services_pkg) JobStarted: {'identifier': 'services_pkg'}
+[0.199497] (-) TimerEvent: {}
+[0.299972] (-) TimerEvent: {}
+[0.400495] (-) TimerEvent: {}
+[0.500918] (-) TimerEvent: {}
+[0.601276] (-) TimerEvent: {}
+[0.701594] (-) TimerEvent: {}
+[0.801949] (-) TimerEvent: {}
+[0.902416] (-) TimerEvent: {}
+[1.002797] (-) TimerEvent: {}
+[1.103216] (-) TimerEvent: {}
+[1.203574] (-) TimerEvent: {}
+[1.303917] (-) TimerEvent: {}
+[1.404309] (-) TimerEvent: {}
+[1.504704] (-) TimerEvent: {}
+[1.605059] (-) TimerEvent: {}
+[1.705404] (-) TimerEvent: {}
+[1.805745] (-) TimerEvent: {}
+[1.906048] (-) TimerEvent: {}
+[2.006341] (-) TimerEvent: {}
+[2.106693] (-) TimerEvent: {}
+[2.207022] (-) TimerEvent: {}
+[2.307337] (-) TimerEvent: {}
+[2.407676] (-) TimerEvent: {}
+[2.507980] (-) TimerEvent: {}
+[2.608318] (-) TimerEvent: {}
+[2.708644] (-) TimerEvent: {}
+[2.808970] (-) TimerEvent: {}
+[2.855224] (services_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/services_pkg', 'build', '--build-base', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build', 'install', '--prefix', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg', '--record', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/services_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'NightBaRron1412', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'KIGITHUB': 'https://github.com/KiCad', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/NightBaRron1412', 'OLDPWD': '/home/NightBaRron1412/Desktop/Robotics_ITI', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '20672', 'SYSTEMD_EXEC_PID': '21341', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '753099', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'NightBaRron1412', 'JOURNAL_STREAM': '8:62738', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'NightBaRron1412', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/NightBaRron1412/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omen-laptop:@/tmp/.ICE-unix/21322,unix/omen-laptop:/tmp/.ICE-unix/21322', 'INVOCATION_ID': 'f0ccd72844ad4c539540c76831352e4d', 'PAPERSIZE': 'letter', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_py_pkg:/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:05dbcd95-81c5-422b-a32f-8836542adbb5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg', 'KICAD_PATH': '/usr/share/kicad', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages:/home/NightBaRron1412/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[2.878491] (first_pkg_robotics) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/first_pkg_robotics', 'build', '--build-base', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build', 'install', '--prefix', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics', '--record', '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log', '--single-version-externally-managed'], 'cwd': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/first_pkg_robotics', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'NightBaRron1412', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'KIGITHUB': 'https://github.com/KiCad', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/NightBaRron1412', 'OLDPWD': '/home/NightBaRron1412/Desktop/Robotics_ITI', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '20672', 'SYSTEMD_EXEC_PID': '21341', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '753099', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'NightBaRron1412', 'JOURNAL_STREAM': '8:62738', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'NightBaRron1412', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/NightBaRron1412/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omen-laptop:@/tmp/.ICE-unix/21322,unix/omen-laptop:/tmp/.ICE-unix/21322', 'INVOCATION_ID': 'f0ccd72844ad4c539540c76831352e4d', 'PAPERSIZE': 'letter', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_py_pkg:/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:05dbcd95-81c5-422b-a32f-8836542adbb5', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics', 'KICAD_PATH': '/usr/share/kicad', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages:/home/NightBaRron1412/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[2.909086] (-) TimerEvent: {}
+[3.009533] (-) TimerEvent: {}
+[3.109992] (-) TimerEvent: {}
+[3.210460] (-) TimerEvent: {}
+[3.310812] (-) TimerEvent: {}
+[3.411191] (-) TimerEvent: {}
+[3.422153] (first_pkg_robotics) StdoutLine: {'line': b'running egg_info\n'}
+[3.423782] (first_pkg_robotics) StdoutLine: {'line': b'creating ../../build/first_pkg_robotics/first_pkg_robotics.egg-info\n'}
+[3.424284] (first_pkg_robotics) StdoutLine: {'line': b'writing ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/PKG-INFO\n'}
+[3.424932] (first_pkg_robotics) StdoutLine: {'line': b'writing dependency_links to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/dependency_links.txt\n'}
+[3.425373] (first_pkg_robotics) StdoutLine: {'line': b'writing entry points to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/entry_points.txt\n'}
+[3.425789] (first_pkg_robotics) StdoutLine: {'line': b'writing requirements to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/requires.txt\n'}
+[3.426099] (first_pkg_robotics) StdoutLine: {'line': b'writing top-level names to ../../build/first_pkg_robotics/first_pkg_robotics.egg-info/top_level.txt\n'}
+[3.506929] (services_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[3.511309] (-) TimerEvent: {}
+[3.551466] (services_pkg) StdoutLine: {'line': b'writing ../../build/services_pkg/services_pkg.egg-info/PKG-INFO\n'}
+[3.587333] (services_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/services_pkg/services_pkg.egg-info/dependency_links.txt\n'}
+[3.596157] (services_pkg) StdoutLine: {'line': b'writing entry points to ../../build/services_pkg/services_pkg.egg-info/entry_points.txt\n'}
+[3.596453] (services_pkg) StdoutLine: {'line': b'writing requirements to ../../build/services_pkg/services_pkg.egg-info/requires.txt\n'}
+[3.596648] (services_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/services_pkg/services_pkg.egg-info/top_level.txt\n'}
+[3.611390] (-) TimerEvent: {}
+[3.614158] (first_pkg_robotics) StdoutLine: {'line': b"writing manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'\n"}
+[3.616382] (services_pkg) StdoutLine: {'line': b"reading manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'\n"}
+[3.617170] (first_pkg_robotics) StdoutLine: {'line': b"reading manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'\n"}
+[3.618803] (first_pkg_robotics) StdoutLine: {'line': b"writing manifest file '../../build/first_pkg_robotics/first_pkg_robotics.egg-info/SOURCES.txt'\n"}
+[3.619093] (first_pkg_robotics) StdoutLine: {'line': b'running build\n'}
+[3.619229] (first_pkg_robotics) StdoutLine: {'line': b'running build_py\n'}
+[3.619539] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build\n'}
+[3.619710] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib\n'}
+[3.620003] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics\n'}
+[3.620169] (first_pkg_robotics) StdoutLine: {'line': b'copying first_pkg_robotics/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics\n'}
+[3.620300] (first_pkg_robotics) StdoutLine: {'line': b'copying first_pkg_robotics/file1.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics\n'}
+[3.648621] (services_pkg) StdoutLine: {'line': b"writing manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'\n"}
+[3.649062] (services_pkg) StdoutLine: {'line': b'running build\n'}
+[3.649314] (services_pkg) StdoutLine: {'line': b'running build_py\n'}
+[3.649574] (services_pkg) StdoutLine: {'line': b'copying services_pkg/client.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build/lib/services_pkg\n'}
+[3.663136] (first_pkg_robotics) StdoutLine: {'line': b'running install\n'}
+[3.705160] (first_pkg_robotics) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.705552] (first_pkg_robotics) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.705955] (first_pkg_robotics) StdoutLine: {'line': b'running install_lib\n'}
+[3.707929] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics\n'}
+[3.708428] (first_pkg_robotics) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics\n'}
+[3.708828] (first_pkg_robotics) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/build/lib/first_pkg_robotics/file1.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics\n'}
+[3.709676] (first_pkg_robotics) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics/__init__.py to __init__.cpython-310.pyc\n'}
+[3.710178] (first_pkg_robotics) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics/file1.py to file1.cpython-310.pyc\n'}
+[3.711033] (first_pkg_robotics) StdoutLine: {'line': b'running install_data\n'}
+[3.711473] (-) TimerEvent: {}
+[3.712448] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index\n'}
+[3.712944] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index\n'}
+[3.713272] (first_pkg_robotics) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index/packages\n'}
+[3.713551] (first_pkg_robotics) StdoutLine: {'line': b'copying resource/first_pkg_robotics -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/ament_index/resource_index/packages\n'}
+[3.722106] (services_pkg) StdoutLine: {'line': b'copying services_pkg/server.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build/lib/services_pkg\n'}
+[3.770741] (first_pkg_robotics) StdoutLine: {'line': b'copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/share/first_pkg_robotics\n'}
+[3.771193] (first_pkg_robotics) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.774582] (first_pkg_robotics) StdoutLine: {'line': b'Copying ../../build/first_pkg_robotics/first_pkg_robotics.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/first_pkg_robotics/lib/python3.10/site-packages/first_pkg_robotics-0.0.0-py3.10.egg-info\n'}
+[3.776782] (first_pkg_robotics) StdoutLine: {'line': b'running install_scripts\n'}
+[3.803871] (services_pkg) StdoutLine: {'line': b'running install\n'}
+[3.804428] (services_pkg) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[3.804799] (services_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.805232] (services_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[3.807407] (services_pkg) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build/lib/services_pkg/client.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg\n'}
+[3.807968] (services_pkg) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/build/lib/services_pkg/server.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg\n'}
+[3.809476] (services_pkg) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/client.py to client.cpython-310.pyc\n'}
+[3.810865] (services_pkg) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg/server.py to server.cpython-310.pyc\n'}
+[3.811569] (-) TimerEvent: {}
+[3.811933] (services_pkg) StdoutLine: {'line': b'running install_data\n'}
+[3.813398] (services_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.817849] (services_pkg) StdoutLine: {'line': b"removing '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.818976] (services_pkg) StdoutLine: {'line': b'Copying ../../build/services_pkg/services_pkg.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/python3.10/site-packages/services_pkg-0.0.0-py3.10.egg-info\n'}
+[3.835487] (first_pkg_robotics) StdoutLine: {'line': b"writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/first_pkg_robotics/install.log'\n"}
+[3.857218] (services_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[3.890661] (first_pkg_robotics) CommandEnded: {'returncode': 0}
+[3.911692] (-) TimerEvent: {}
+[3.919032] (services_pkg) StdoutLine: {'line': b'Installing client script to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/services_pkg\n'}
+[3.919590] (services_pkg) StdoutLine: {'line': b'Installing server script to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/services_pkg/lib/services_pkg\n'}
+[3.920335] (services_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/services_pkg/install.log'\n"}
+[4.011814] (-) TimerEvent: {}
+[4.112306] (-) TimerEvent: {}
+[4.129439] (first_pkg_robotics) JobEnded: {'identifier': 'first_pkg_robotics', 'rc': 0}
+[4.139291] (services_pkg) CommandEnded: {'returncode': 0}
+[4.163525] (services_pkg) JobEnded: {'identifier': 'services_pkg', 'rc': 0}
+[4.165506] (-) EventReactorShutdown: {}
