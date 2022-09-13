@@ -1,0 +1,39 @@
+[2.203s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/src/ITI_LAB4': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB4 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/install.log --single-version-externally-managed
+[2.522s] running egg_info
+[2.522s] creating ../../build/ITI_LAB4/ITI_LAB4.egg-info
+[2.523s] writing ../../build/ITI_LAB4/ITI_LAB4.egg-info/PKG-INFO
+[2.523s] writing dependency_links to ../../build/ITI_LAB4/ITI_LAB4.egg-info/dependency_links.txt
+[2.523s] writing entry points to ../../build/ITI_LAB4/ITI_LAB4.egg-info/entry_points.txt
+[2.523s] writing requirements to ../../build/ITI_LAB4/ITI_LAB4.egg-info/requires.txt
+[2.523s] writing top-level names to ../../build/ITI_LAB4/ITI_LAB4.egg-info/top_level.txt
+[2.687s] writing manifest file '../../build/ITI_LAB4/ITI_LAB4.egg-info/SOURCES.txt'
+[2.689s] reading manifest file '../../build/ITI_LAB4/ITI_LAB4.egg-info/SOURCES.txt'
+[2.690s] writing manifest file '../../build/ITI_LAB4/ITI_LAB4.egg-info/SOURCES.txt'
+[2.690s] running build
+[2.691s] running build_py
+[2.691s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build
+[2.691s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib
+[2.691s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4
+[2.691s] copying ITI_LAB4/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4
+[2.691s] copying ITI_LAB4/turtle_reset.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4
+[2.691s] running install
+[2.710s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.711s]   warnings.warn(
+[2.711s] running install_lib
+[2.712s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4
+[2.712s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4
+[2.712s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4/turtle_reset.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4
+[2.712s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4/__init__.py to __init__.cpython-310.pyc
+[2.712s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4/turtle_reset.py to turtle_reset.cpython-310.pyc
+[2.713s] running install_data
+[2.713s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/share/ament_index
+[2.713s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/share/ament_index/resource_index
+[2.714s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/share/ament_index/resource_index/packages
+[2.714s] copying resource/ITI_LAB4 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/share/ament_index/resource_index/packages
+[2.714s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/share/ITI_LAB4
+[2.714s] running install_egg_info
+[2.716s] Copying ../../build/ITI_LAB4/ITI_LAB4.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4-0.0.0-py3.10.egg-info
+[2.716s] running install_scripts
+[2.734s] Installing turtle_reset script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/ITI_LAB4
+[2.734s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/install.log'
+[2.759s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/src/ITI_LAB4' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ITI_LAB4 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/install.log --single-version-externally-managed

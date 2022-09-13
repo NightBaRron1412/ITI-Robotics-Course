@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/ITI_LAB4/ITI_LAB4.egg-info/PKG-INFO
+writing dependency_links to ../../build/ITI_LAB4/ITI_LAB4.egg-info/dependency_links.txt
+writing entry points to ../../build/ITI_LAB4/ITI_LAB4.egg-info/entry_points.txt
+writing requirements to ../../build/ITI_LAB4/ITI_LAB4.egg-info/requires.txt
+writing top-level names to ../../build/ITI_LAB4/ITI_LAB4.egg-info/top_level.txt
+reading manifest file '../../build/ITI_LAB4/ITI_LAB4.egg-info/SOURCES.txt'
+writing manifest file '../../build/ITI_LAB4/ITI_LAB4.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ITI_LAB4/turtle_reset.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/build/lib/ITI_LAB4/turtle_reset.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4
+byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4/turtle_reset.py to turtle_reset.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ITI_LAB4/ITI_LAB4.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/python3.10/site-packages/ITI_LAB4-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_reset script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/install/ITI_LAB4/lib/ITI_LAB4
+writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_10/build/ITI_LAB4/install.log'

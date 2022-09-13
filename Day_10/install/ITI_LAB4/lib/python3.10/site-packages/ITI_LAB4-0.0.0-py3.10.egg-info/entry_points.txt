@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_reset = ITI_LAB4.turtle_reset:main
+
