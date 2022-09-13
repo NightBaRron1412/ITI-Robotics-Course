@@ -1,0 +1,47 @@
+[1.317s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/ITI_LAB3': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ITI_LAB3 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/install.log --single-version-externally-managed
+[1.764s] running egg_info
+[1.764s] creating ../build/ITI_LAB3/ITI_LAB3.egg-info
+[1.765s] writing ../build/ITI_LAB3/ITI_LAB3.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../build/ITI_LAB3/ITI_LAB3.egg-info/dependency_links.txt
+[1.765s] writing entry points to ../build/ITI_LAB3/ITI_LAB3.egg-info/entry_points.txt
+[1.765s] writing requirements to ../build/ITI_LAB3/ITI_LAB3.egg-info/requires.txt
+[1.766s] writing top-level names to ../build/ITI_LAB3/ITI_LAB3.egg-info/top_level.txt
+[1.768s] writing manifest file '../build/ITI_LAB3/ITI_LAB3.egg-info/SOURCES.txt'
+[1.770s] reading manifest file '../build/ITI_LAB3/ITI_LAB3.egg-info/SOURCES.txt'
+[1.771s] writing manifest file '../build/ITI_LAB3/ITI_LAB3.egg-info/SOURCES.txt'
+[1.771s] running build
+[1.771s] running build_py
+[1.772s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build
+[1.772s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib
+[1.772s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3
+[1.772s] copying ITI_LAB3/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3
+[1.772s] copying ITI_LAB3/Int_publisher.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3
+[1.773s] copying ITI_LAB3/number_counter.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3
+[1.773s] copying ITI_LAB3/reset_client.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3
+[1.773s] running install
+[1.773s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.773s]   warnings.warn(
+[1.773s] running install_lib
+[1.774s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3
+[1.775s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3
+[1.775s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3/Int_publisher.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3
+[1.775s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3/number_counter.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3
+[1.775s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build/lib/ITI_LAB3/reset_client.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3
+[1.775s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3/__init__.py to __init__.cpython-310.pyc
+[1.776s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3/Int_publisher.py to Int_publisher.cpython-310.pyc
+[1.776s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3/number_counter.py to number_counter.cpython-310.pyc
+[1.777s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3/reset_client.py to reset_client.cpython-310.pyc
+[1.777s] running install_data
+[1.778s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/share/ament_index
+[1.778s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/share/ament_index/resource_index
+[1.778s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/share/ament_index/resource_index/packages
+[1.778s] copying resource/ITI_LAB3 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/share/ament_index/resource_index/packages
+[1.778s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/share/ITI_LAB3
+[1.778s] running install_egg_info
+[1.780s] Copying ../build/ITI_LAB3/ITI_LAB3.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages/ITI_LAB3-0.0.0-py3.10.egg-info
+[1.781s] running install_scripts
+[1.807s] Installing Int_publisher script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/ITI_LAB3
+[1.807s] Installing number_counter script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/ITI_LAB3
+[1.807s] Installing reset_client script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/ITI_LAB3
+[1.808s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/install.log'
+[1.836s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/ITI_LAB3' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ITI_LAB3 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/install/ITI_LAB3 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_9/src/build/ITI_LAB3/install.log --single-version-externally-managed

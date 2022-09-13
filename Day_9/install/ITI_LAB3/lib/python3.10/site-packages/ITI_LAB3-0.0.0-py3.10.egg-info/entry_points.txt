@@ -1,0 +1,3 @@
+[console_scripts]
+Int_publisher=ITI_LAB3.Int_publisher:mainnumber_counter=ITI_LAB3.number_counter:mainreset_client = ITI_LAB3.reset_client:main
+

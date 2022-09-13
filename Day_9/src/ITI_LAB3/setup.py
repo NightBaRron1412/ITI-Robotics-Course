@@ -20,6 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+        "Int_publisher=ITI_LAB3.Int_publisher:main",
+        "number_counter=ITI_LAB3.number_counter:main",
+        "reset_client=ITI_LAB3.reset_client:main"
+        
         ],
     },
 )
