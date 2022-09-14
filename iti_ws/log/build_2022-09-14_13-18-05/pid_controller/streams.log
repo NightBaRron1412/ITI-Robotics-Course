@@ -1,0 +1,38 @@
+[1.685s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/pid_controller': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/install.log --single-version-externally-managed
+[1.939s] running egg_info
+[1.939s] creating ../../build/pid_controller/pid_controller.egg-info
+[1.939s] writing ../../build/pid_controller/pid_controller.egg-info/PKG-INFO
+[1.939s] writing dependency_links to ../../build/pid_controller/pid_controller.egg-info/dependency_links.txt
+[1.940s] writing entry points to ../../build/pid_controller/pid_controller.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/pid_controller/pid_controller.egg-info/requires.txt
+[1.940s] writing top-level names to ../../build/pid_controller/pid_controller.egg-info/top_level.txt
+[2.002s] writing manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.004s] reading manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.006s] writing manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.006s] running build
+[2.006s] running build_py
+[2.007s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build
+[2.007s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib
+[2.007s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib/pid_controller
+[2.007s] copying pid_controller/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib/pid_controller
+[2.007s] copying pid_controller/pid_control.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib/pid_controller
+[2.007s] running install
+[2.034s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.035s]   warnings.warn(
+[2.036s] running install_lib
+[2.039s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[2.039s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib/pid_controller/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[2.040s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build/lib/pid_controller/pid_control.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[2.041s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller/__init__.py to __init__.cpython-310.pyc
+[2.042s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller/pid_control.py to pid_control.cpython-310.pyc
+[2.045s] running install_data
+[2.047s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/share/ament_index
+[2.048s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/share/ament_index/resource_index
+[2.049s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/share/ament_index/resource_index/packages
+[2.049s] copying resource/pid_controller -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/share/ament_index/resource_index/packages
+[2.050s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/share/pid_controller
+[2.050s] running install_egg_info
+[2.055s] Copying ../../build/pid_controller/pid_controller.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller-0.0.0-py3.10.egg-info
+[2.058s] running install_scripts
+[2.091s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/install.log'
+[2.115s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/src/pid_controller' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/install/pid_controller --record /home/NightBaRron1412/Desktop/Robotics_ITI/iti_ws/build/pid_controller/install.log --single-version-externally-managed
