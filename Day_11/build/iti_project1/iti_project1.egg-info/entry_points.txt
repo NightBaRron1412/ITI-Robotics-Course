@@ -1,0 +1,4 @@
+[console_scripts]
+control_node = iti_project1.control_node:main
+spawn_node = iti_project1.spawn_node:main
+

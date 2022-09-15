@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (iti_project1) JobQueued: {'identifier': 'iti_project1', 'dependencies': OrderedDict()}
+[0.000196] (iti_project1) JobStarted: {'identifier': 'iti_project1'}
+[0.099640] (-) TimerEvent: {}
+[0.200158] (-) TimerEvent: {}
+[0.300367] (-) TimerEvent: {}
+[0.400601] (-) TimerEvent: {}
+[0.500837] (-) TimerEvent: {}
+[0.601087] (-) TimerEvent: {}
+[0.701339] (-) TimerEvent: {}
+[0.801672] (-) TimerEvent: {}
+[0.902209] (-) TimerEvent: {}
+[1.002559] (-) TimerEvent: {}
+[1.103057] (-) TimerEvent: {}
+[1.203511] (-) TimerEvent: {}
+[1.303773] (-) TimerEvent: {}
+[1.404252] (-) TimerEvent: {}
+[1.504827] (-) TimerEvent: {}
+[1.605366] (-) TimerEvent: {}
+[1.705664] (-) TimerEvent: {}
+[1.758464] (iti_project1) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/iti_project1', 'build', '--build-base', '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build', 'install', '--prefix', '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1', '--record', '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log', '--single-version-externally-managed'], 'cwd': '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/src/iti_project1', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en', 'USER': 'NightBaRron1412', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'KIGITHUB': 'https://github.com/KiCad', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/NightBaRron1412', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/nemo.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '81882', 'SYSTEMD_EXEC_PID': '83507', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '226968', 'MANDATORY_PATH': '/usr/share/gconf/ubuntu.mandatory.path', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'NightBaRron1412', 'JOURNAL_STREAM': '8:57302', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'DEFAULTS_PATH': '/usr/share/gconf/ubuntu.default.path', 'USERNAME': 'NightBaRron1412', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/NightBaRron1412/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/omen-laptop:@/tmp/.ICE-unix/83488,unix/omen-laptop:/tmp/.ICE-unix/83488', 'INVOCATION_ID': 'ff8c5814dffa4dbbb5c1809082716e4b', 'PAPERSIZE': 'letter', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_py_pkg:/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d7dc522e-dc0d-4070-bf0f-054d304ae8f6', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1', 'KICAD_PATH': '/usr/share/kicad', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/NightBaRron1412/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages:/home/NightBaRron1412/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/NightBaRron1412/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.805769] (-) TimerEvent: {}
+[1.906019] (-) TimerEvent: {}
+[1.999782] (iti_project1) StdoutLine: {'line': b'running egg_info\n'}
+[2.000596] (iti_project1) StdoutLine: {'line': b'creating ../../build/iti_project1/iti_project1.egg-info\n'}
+[2.000931] (iti_project1) StdoutLine: {'line': b'writing ../../build/iti_project1/iti_project1.egg-info/PKG-INFO\n'}
+[2.001109] (iti_project1) StdoutLine: {'line': b'writing dependency_links to ../../build/iti_project1/iti_project1.egg-info/dependency_links.txt\n'}
+[2.001278] (iti_project1) StdoutLine: {'line': b'writing entry points to ../../build/iti_project1/iti_project1.egg-info/entry_points.txt\n'}
+[2.001476] (iti_project1) StdoutLine: {'line': b'writing requirements to ../../build/iti_project1/iti_project1.egg-info/requires.txt\n'}
+[2.001576] (iti_project1) StdoutLine: {'line': b'writing top-level names to ../../build/iti_project1/iti_project1.egg-info/top_level.txt\n'}
+[2.006119] (-) TimerEvent: {}
+[2.058808] (iti_project1) StdoutLine: {'line': b"writing manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'\n"}
+[2.061175] (iti_project1) StdoutLine: {'line': b"reading manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'\n"}
+[2.062038] (iti_project1) StdoutLine: {'line': b"writing manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'\n"}
+[2.062266] (iti_project1) StdoutLine: {'line': b'running build\n'}
+[2.062373] (iti_project1) StdoutLine: {'line': b'running build_py\n'}
+[2.062612] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build\n'}
+[2.062772] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib\n'}
+[2.062927] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1\n'}
+[2.063023] (iti_project1) StdoutLine: {'line': b'copying iti_project1/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1\n'}
+[2.063126] (iti_project1) StdoutLine: {'line': b'copying iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1\n'}
+[2.063221] (iti_project1) StdoutLine: {'line': b'copying iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1\n'}
+[2.063443] (iti_project1) StdoutLine: {'line': b'running install\n'}
+[2.083299] (iti_project1) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[2.083802] (iti_project1) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.084192] (iti_project1) StdoutLine: {'line': b'running install_lib\n'}
+[2.086270] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1\n'}
+[2.086791] (iti_project1) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1\n'}
+[2.087062] (iti_project1) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1\n'}
+[2.087525] (iti_project1) StdoutLine: {'line': b'copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1\n'}
+[2.088581] (iti_project1) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/__init__.py to __init__.cpython-310.pyc\n'}
+[2.089392] (iti_project1) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/spawn_node.py to spawn_node.cpython-310.pyc\n'}
+[2.091345] (iti_project1) StdoutLine: {'line': b'byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/control_node.py to control_node.cpython-310.pyc\n'}
+[2.095256] (iti_project1) StdoutLine: {'line': b'running install_data\n'}
+[2.096999] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index\n'}
+[2.097694] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index\n'}
+[2.098088] (iti_project1) StdoutLine: {'line': b'creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index/packages\n'}
+[2.098581] (iti_project1) StdoutLine: {'line': b'copying resource/iti_project1 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index/packages\n'}
+[2.098945] (iti_project1) StdoutLine: {'line': b'copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/iti_project1\n'}
+[2.099215] (iti_project1) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.103862] (iti_project1) StdoutLine: {'line': b'Copying ../../build/iti_project1/iti_project1.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1-0.0.0-py3.10.egg-info\n'}
+[2.106310] (-) TimerEvent: {}
+[2.106855] (iti_project1) StdoutLine: {'line': b'running install_scripts\n'}
+[2.140668] (iti_project1) StdoutLine: {'line': b'Installing control_node = iti_project.control_node:mainspawn_node script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/iti_project1\n'}
+[2.140976] (iti_project1) StdoutLine: {'line': b"writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log'\n"}
+[2.161154] (iti_project1) CommandEnded: {'returncode': 0}
+[2.208263] (-) TimerEvent: {}
+[2.274869] (iti_project1) JobEnded: {'identifier': 'iti_project1', 'rc': 0}
+[2.277122] (-) EventReactorShutdown: {}

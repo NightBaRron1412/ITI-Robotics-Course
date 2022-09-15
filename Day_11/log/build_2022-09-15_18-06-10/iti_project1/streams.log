@@ -1,0 +1,42 @@
+[1.762s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/src/iti_project1': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_project1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log --single-version-externally-managed
+[2.000s] running egg_info
+[2.000s] creating ../../build/iti_project1/iti_project1.egg-info
+[2.001s] writing ../../build/iti_project1/iti_project1.egg-info/PKG-INFO
+[2.001s] writing dependency_links to ../../build/iti_project1/iti_project1.egg-info/dependency_links.txt
+[2.001s] writing entry points to ../../build/iti_project1/iti_project1.egg-info/entry_points.txt
+[2.001s] writing requirements to ../../build/iti_project1/iti_project1.egg-info/requires.txt
+[2.001s] writing top-level names to ../../build/iti_project1/iti_project1.egg-info/top_level.txt
+[2.059s] writing manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'
+[2.061s] reading manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'
+[2.062s] writing manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'
+[2.062s] running build
+[2.062s] running build_py
+[2.063s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build
+[2.063s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib
+[2.063s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[2.063s] copying iti_project1/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[2.063s] copying iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[2.063s] copying iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[2.063s] running install
+[2.083s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.084s]   warnings.warn(
+[2.084s] running install_lib
+[2.086s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[2.087s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[2.087s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[2.088s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[2.089s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/__init__.py to __init__.cpython-310.pyc
+[2.089s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/spawn_node.py to spawn_node.cpython-310.pyc
+[2.091s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/control_node.py to control_node.cpython-310.pyc
+[2.095s] running install_data
+[2.097s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index
+[2.098s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index
+[2.098s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index/packages
+[2.099s] copying resource/iti_project1 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/ament_index/resource_index/packages
+[2.099s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/share/iti_project1
+[2.099s] running install_egg_info
+[2.104s] Copying ../../build/iti_project1/iti_project1.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1-0.0.0-py3.10.egg-info
+[2.107s] running install_scripts
+[2.141s] Installing control_node = iti_project.control_node:mainspawn_node script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/iti_project1
+[2.141s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log'
+[2.161s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/src/iti_project1' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_project1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log --single-version-externally-managed
