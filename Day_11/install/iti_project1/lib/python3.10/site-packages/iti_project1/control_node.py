@@ -2,10 +2,11 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-from std_srvs.srv import Trigger
+from std_srvs.srv import Trigger, Empty
 from turtlesim.msg import Pose
 from turtlesim.srv import Kill
 from math import sqrt, atan2, pi
+from time import time
 
 node_name = "control_node"
 
@@ -25,8 +26,9 @@ class ControlNode(Node):
 
         self.kill_client = self.create_client(Kill, "kill")
         self.spawn_client = self.create_client(Trigger, "spawn_trigger")
+        self.clear_client = self.create_client(Empty, "clear")
 
-        self.get_logger().info("Node_Started, Waiting for Target information")
+        self.get_logger().info("Node_Started, Waiting for Target information...")
 
         # Target
         self.target_x = 0  # Target x
@@ -36,6 +38,9 @@ class ControlNode(Node):
         # Commands
         self.lin_vel = 0
         self.ang_vel = 0
+
+        # Timer
+        self.start_time = 0  # timer to prevent multiple service executions
 
         ################### PIDs Gains   ####################
         self.Kp_lin = 2
@@ -70,6 +75,14 @@ class ControlNode(Node):
 
         self.spawn_client_service()
 
+    def clear_client_service(self):
+        while (self.clear_client.wait_for_service(0.25) == False):
+            self.get_logger().warn("Requesting Approval to assassinate")
+
+        request = Empty.Request()
+
+        self.clear_client.call_async(request)
+
     def kill_client_service(self):
         while (self.kill_client.wait_for_service(0.25) == False):
             self.get_logger().warn("Requesting Approval to assassinate")
@@ -78,10 +91,12 @@ class ControlNode(Node):
         request.name = "donatello"
 
         kill_future_obj = self.kill_client.call_async(request)
+        self.start_time = time()
         kill_future_obj.add_done_callback(self.kill_future_call_back)
 
     def kill_future_call_back(self, _):
         self.donatello_dead = True
+        self.clear_client_service()
         self.spawn_client_service()
 
     def spawn_client_service(self):
@@ -154,7 +169,8 @@ class ControlNode(Node):
             self.lin_ang = 0
             if (self.donatello_dead == False):
                 self.get_logger().info("Target Reached, Assassinating Donatello")
-                self.kill_client_service()
+                if (time() - self.start_time > 0.1):
+                    self.kill_client_service()
 
         else:
             self.get_logger().warn(' lin_gain: '+str(self.lin_vel)+' ang_gain: '+str(self.ang_vel) +

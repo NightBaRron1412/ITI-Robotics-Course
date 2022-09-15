@@ -1,0 +1,30 @@
+[0.648s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/src/iti_project1': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_project1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log --single-version-externally-managed
+[0.891s] running egg_info
+[0.892s] writing ../../build/iti_project1/iti_project1.egg-info/PKG-INFO
+[0.892s] writing dependency_links to ../../build/iti_project1/iti_project1.egg-info/dependency_links.txt
+[0.892s] writing entry points to ../../build/iti_project1/iti_project1.egg-info/entry_points.txt
+[0.892s] writing requirements to ../../build/iti_project1/iti_project1.egg-info/requires.txt
+[0.893s] writing top-level names to ../../build/iti_project1/iti_project1.egg-info/top_level.txt
+[0.897s] reading manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'
+[0.898s] writing manifest file '../../build/iti_project1/iti_project1.egg-info/SOURCES.txt'
+[0.898s] running build
+[0.898s] running build_py
+[0.899s] copying iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[0.899s] copying iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1
+[0.899s] running install
+[0.899s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.899s]   warnings.warn(
+[0.900s] running install_lib
+[0.901s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/spawn_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[0.901s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build/lib/iti_project1/control_node.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1
+[0.901s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/spawn_node.py to spawn_node.cpython-310.pyc
+[0.902s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1/control_node.py to control_node.cpython-310.pyc
+[0.904s] running install_data
+[0.905s] running install_egg_info
+[0.906s] removing '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.907s] Copying ../../build/iti_project1/iti_project1.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages/iti_project1-0.0.0-py3.10.egg-info
+[0.908s] running install_scripts
+[0.937s] Installing control_node script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/iti_project1
+[0.937s] Installing spawn_node script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/iti_project1
+[0.937s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log'
+[0.967s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/src/iti_project1' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/iti_project1 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/install/iti_project1 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_11/build/iti_project1/install.log --single-version-externally-managed
