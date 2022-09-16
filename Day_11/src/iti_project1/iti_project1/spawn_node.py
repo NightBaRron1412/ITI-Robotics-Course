@@ -39,7 +39,8 @@ class SpawnNode(Node):
 
     def future_call_back(self, future_msg):
         response = future_msg.result()
-        self.get_logger().info(response.name.capitalize() + " has been located!")
+        self.get_logger().warn(response.name.capitalize() + " has been located!")
+        self.get_logger().info("Sending coordinates to operator...")
 
 
 def main(args=None):

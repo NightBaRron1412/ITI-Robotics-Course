@@ -33,7 +33,7 @@ class ControlNode(Node):
         # Target
         self.target_x = 0  # Target x
         self.target_y = 0  # Target y
-        self.tolerance = 0.01  # Tolerance
+        self.tolerance = 0.1  # Tolerance
 
         # Commands
         self.lin_vel = 0
@@ -47,7 +47,7 @@ class ControlNode(Node):
         self.Ki_lin = 0.000001
         self.Kd_lin = 0.1
 
-        self.Kp_ang = 3
+        self.Kp_ang = 10
         self.Ki_ang = 0
         self.Kd_ang = 0.1
 
@@ -77,7 +77,7 @@ class ControlNode(Node):
 
     def clear_client_service(self):
         while (self.clear_client.wait_for_service(0.25) == False):
-            self.get_logger().warn("Requesting Approval to assassinate")
+            self.get_logger().warn("Requesting Approval to clear...")
 
         request = Empty.Request()
 
@@ -85,7 +85,7 @@ class ControlNode(Node):
 
     def kill_client_service(self):
         while (self.kill_client.wait_for_service(0.25) == False):
-            self.get_logger().warn("Requesting Approval to assassinate")
+            self.get_logger().warn("Requesting Approval to assassinate...")
 
         request = Kill.Request()
         request.name = "donatello"
@@ -96,12 +96,14 @@ class ControlNode(Node):
 
     def kill_future_call_back(self, _):
         self.donatello_dead = True
+        self.get_logger().error(
+            "Target Eliminated,\nContacting HQ for next target location...")
         self.clear_client_service()
         self.spawn_client_service()
 
     def spawn_client_service(self):
         while (self.spawn_client.wait_for_service(0.25) == False):
-            self.get_logger().warn("Waiting for information about new target location...")
+            self.get_logger().warn("Trying to reach HQ...")
 
         request = Trigger.Request()
 
@@ -109,7 +111,7 @@ class ControlNode(Node):
         spawn_future_obj.add_done_callback(self.spawn_future_call_back)
 
     def spawn_future_call_back(self, _):
-        self.get_logger().info("Moving to new target")
+        self.get_logger().info("Location acquired, Commencing Operation...")
         self.donatello_dead = False
 
     def donatello_sub_call(self, pose):
@@ -131,10 +133,8 @@ class ControlNode(Node):
 
         if self.error_ang > pi:
             self.error_ang -= 2 * pi
-            print('dec')
         elif self.error_ang < -pi:
             self.error_ang += 2 * pi
-            print('inc')
 
         ################### Linear Gain ####################
         self.p_lin = self.error_lin*self.Kp_lin  # Proportional Term
@@ -167,14 +167,9 @@ class ControlNode(Node):
         if ((abs(self.error_lin)) < self.tolerance):
             self.lin_vel = 0
             self.lin_ang = 0
-            if (self.donatello_dead == False):
-                self.get_logger().info("Target Reached, Assassinating Donatello")
-                if (time() - self.start_time > 0.1):
-                    self.kill_client_service()
-
-        else:
-            self.get_logger().warn(' lin_gain: '+str(self.lin_vel)+' ang_gain: '+str(self.ang_vel) +
-                                   ' error_ang: '+str(self.error_ang)+' error_lin: '+str(self.error_lin))
+            if (self.donatello_dead == False and time() - self.start_time > 0.1):
+                self.get_logger().warn("Target Reached, Assassinating Donatello")
+                self.kill_client_service()
 
     def pub_call(self):
         msg = Twist()
