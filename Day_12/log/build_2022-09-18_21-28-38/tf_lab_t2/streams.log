@@ -1,0 +1,38 @@
+[2.276s] Invoking command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/src/tf_lab_t2': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_lab_t2 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/install.log --single-version-externally-managed
+[2.529s] running egg_info
+[2.530s] creating ../../build/tf_lab_t2/tf_lab_t2.egg-info
+[2.530s] writing ../../build/tf_lab_t2/tf_lab_t2.egg-info/PKG-INFO
+[2.530s] writing dependency_links to ../../build/tf_lab_t2/tf_lab_t2.egg-info/dependency_links.txt
+[2.531s] writing entry points to ../../build/tf_lab_t2/tf_lab_t2.egg-info/entry_points.txt
+[2.531s] writing requirements to ../../build/tf_lab_t2/tf_lab_t2.egg-info/requires.txt
+[2.531s] writing top-level names to ../../build/tf_lab_t2/tf_lab_t2.egg-info/top_level.txt
+[2.621s] writing manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+[2.627s] reading manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+[2.630s] writing manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+[2.631s] running build
+[2.632s] running build_py
+[2.632s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build
+[2.633s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib
+[2.633s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+[2.655s] copying tf_lab_t2/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+[2.656s] copying tf_lab_t2/frame_pub.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+[2.657s] running install
+[2.669s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.670s]   warnings.warn(
+[2.671s] running install_lib
+[2.674s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+[2.674s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+[2.674s] copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2/frame_pub.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+[2.676s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2/__init__.py to __init__.cpython-310.pyc
+[2.677s] byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2/frame_pub.py to frame_pub.cpython-310.pyc
+[2.679s] running install_data
+[2.681s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index
+[2.682s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index
+[2.682s] creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index/packages
+[2.682s] copying resource/tf_lab_t2 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index/packages
+[2.683s] copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/tf_lab_t2
+[2.683s] running install_egg_info
+[2.688s] Copying ../../build/tf_lab_t2/tf_lab_t2.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2-0.0.0-py3.10.egg-info
+[2.692s] running install_scripts
+[2.724s] writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/install.log'
+[2.744s] Invoked command in '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/src/tf_lab_t2' returned '0': PYTHONPATH=/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/tf_lab_t2 build --build-base /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build install --prefix /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2 --record /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/install.log --single-version-externally-managed

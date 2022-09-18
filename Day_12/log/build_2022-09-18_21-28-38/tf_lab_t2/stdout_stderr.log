@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/tf_lab_t2/tf_lab_t2.egg-info
+writing ../../build/tf_lab_t2/tf_lab_t2.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_lab_t2/tf_lab_t2.egg-info/dependency_links.txt
+writing entry points to ../../build/tf_lab_t2/tf_lab_t2.egg-info/entry_points.txt
+writing requirements to ../../build/tf_lab_t2/tf_lab_t2.egg-info/requires.txt
+writing top-level names to ../../build/tf_lab_t2/tf_lab_t2.egg-info/top_level.txt
+writing manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+reading manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+copying tf_lab_t2/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+copying tf_lab_t2/frame_pub.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2/__init__.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+copying /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/build/lib/tf_lab_t2/frame_pub.py -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2
+byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2/frame_pub.py to frame_pub.cpython-310.pyc
+running install_data
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index
+creating /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index/packages
+copying resource/tf_lab_t2 -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/ament_index/resource_index/packages
+copying package.xml -> /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/share/tf_lab_t2
+running install_egg_info
+Copying ../../build/tf_lab_t2/tf_lab_t2.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/install.log'

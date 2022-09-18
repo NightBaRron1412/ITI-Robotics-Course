@@ -1,0 +1,3 @@
+[console_scripts]
+frame_pub = tf_lab_t2.frame_pub:main
+

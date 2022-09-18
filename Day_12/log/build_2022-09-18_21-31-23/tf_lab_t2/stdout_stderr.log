@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/tf_lab_t2/tf_lab_t2.egg-info/PKG-INFO
+writing dependency_links to ../../build/tf_lab_t2/tf_lab_t2.egg-info/dependency_links.txt
+writing entry points to ../../build/tf_lab_t2/tf_lab_t2.egg-info/entry_points.txt
+writing requirements to ../../build/tf_lab_t2/tf_lab_t2.egg-info/requires.txt
+writing top-level names to ../../build/tf_lab_t2/tf_lab_t2.egg-info/top_level.txt
+reading manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+writing manifest file '../../build/tf_lab_t2/tf_lab_t2.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/tf_lab_t2/tf_lab_t2.egg-info to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/python3.10/site-packages/tf_lab_t2-0.0.0-py3.10.egg-info
+running install_scripts
+Installing frame_pub script to /home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/install/tf_lab_t2/lib/tf_lab_t2
+writing list of installed files to '/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_t2/install.log'
