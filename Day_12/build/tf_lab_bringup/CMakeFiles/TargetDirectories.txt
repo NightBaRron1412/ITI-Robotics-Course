@@ -1,0 +1,9 @@
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/uninstall.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/tf_lab_bringup_uninstall.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/test.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/edit_cache.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/rebuild_cache.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/list_install_components.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/install.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/install/local.dir
+/home/NightBaRron1412/Desktop/Robotics_ITI/Day_12/build/tf_lab_bringup/CMakeFiles/install/strip.dir
